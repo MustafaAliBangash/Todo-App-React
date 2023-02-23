@@ -2,37 +2,96 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: lightblue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+input[type=text] {
+  width: 80%;
+  padding: 10px 15px;
+  margin-top: 0px;
+  border-radius: 15px;
+  border-color: darkblue;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+}
+.container {
+  background-color: darkblue;
+  text-align: center;
+  /* display: flex; */
+  padding: 20px 20px;
   align-items: center;
   justify-content: center;
+  border-color: darkblue;
+  border-radius: 10px;
+  margin-top: 2%;
+  margin-left: 30%;
+  margin-right: 30%;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  text-align: center;
+  padding: 10px 5px;
+  width: 67px;
+  margin-left: 4px;
+  border-radius: 10px;
+  border-color: rgb(75, 210, 248);
+  background-color: rgb(75, 210, 248);
+ font-weight: bold;
+}
+button:hover{
+  background-color: rgb(7, 197, 249);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.listdata{
+  text-align: left;
+  margin-left: 8px;
+  /* margin-right: 55%; */
+  width:225px;
+  border-style: outset;
+  border-radius: 12px;
+  border-color:  rgb(75, 210, 248);
+  background-color: rgb(141, 229, 254);
+  font-size:17px;
+  font-style: normal;
+  color: rgb(69, 68, 68);
+  padding: 6px 5px;
+}
+
+.remove{
+  text-align: center;
+  display: flex;
+  justify-content:center;
+    align-items:center;
+  padding: 7px 5px;
+  width: 78px;
+  margin-left: 10%;
+  border-radius: 10px;
+  border-color:rgb(255, 42, 42);
+  background-color: rgb(255, 42, 42);
+ font-weight: bold;
+ 
+}
+.remove:hover{
+  background-color: rgb(255, 0, 0);
+}
+
+.position {
+  display: flex;
+  align-items: center;
+ }
+ .removeall{
+  text-align: center;
+  justify-content:center;
+    align-items:center;
+  padding: 7px 5px;
+  width: 215px;
+  border-radius: 10px;
+  border-color:rgb(255, 42, 42);
+  background-color: rgb(255, 42, 42);
+ font-weight: bold;
+ }
+ .removeall:hover{
+  background-color: rgb(255, 0, 0);
 }
